@@ -1,0 +1,13 @@
+dataset,config,seed,mIoU,mDice,checkpoint
+luad,BL,11,0.7733421862572163,0.8717233119176578,checkpoints_ablation/luad_BL_seed11/stage1_last.pth
+luad,GSR,11,0.7730692501802525,0.8714841973940806,checkpoints_ablation/luad_GSR_seed11/stage1_last.pth
+luad,CH15,11,0.7668038461188212,0.8673194470085945,checkpoints_ablation/luad_CH15_seed11/stage1_last.pth
+luad,K7,11,0.7714229080571349,0.8705517667186267,checkpoints_ablation/luad_K7_seed11/stage1_last.pth
+luad,K15,11,0.7742353147690807,0.8721083636671838,checkpoints/sshr_luad_seed11_stage1_last.pth
+luad,K21,11,0.7592032501468416,0.862375918731504,checkpoints_ablation/luad_K21_seed11/stage1_last.pth
+bcss,BL,42,0.6928859433817307,0.8168090807776892,checkpoints_ablation/bcss_BL_seed42/stage1_last.pth
+bcss,GSR,42,0.6920286899722777,0.8161641126145728,checkpoints_ablation/bcss_GSR_seed42/stage1_last.pth
+bcss,CH15,42,0.7023791154291893,0.8233267456961206,checkpoints_ablation/bcss_CH15_seed42/stage1_last.pth
+bcss,K7,42,0.6973998537539803,0.819637026813663,checkpoints_ablation/bcss_K7_seed42/stage1_last.pth
+bcss,K15,42,0.7032624815949777,0.8239508698859836,checkpoints/sshr_bcss_seed42_stage1_last.pth
+bcss,K21,42,0.7065513104100719,0.8260040165702223,checkpoints_ablation/bcss_K21_seed42/stage1_last.pth
