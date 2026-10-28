@@ -1,0 +1,27 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+
+# ===== 权重与 checkpoint（体积大，请按 README 下载链接获取 / 自行训练）=====
+checkpoints/
+checkpoints_*/
+init_weights/
+*.pth
+*.pt
+*.params
+
+# ===== 数据集（体积大，请按 README 下载链接获取）=====
+datasets/
+
+# ===== 缓存与日志 =====
+*.npy
+*.npz
+logs/
+runs/
+*.log
+
+# ===== 系统与 IDE =====
+.DS_Store
+Thumbs.db
+.vscode/
+.ipynb_checkpoints/

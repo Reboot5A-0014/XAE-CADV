@@ -1,0 +1,17 @@
+# 核心依赖（单阶段成员训练 + 跨架构成员（Phikon）所需；版本与论文实验环境一致）
+torch==2.9.0
+torchvision
+torchaudio
+numpy==1.23.5
+scipy
+scikit-image==0.25.2
+opencv-python==4.13.0.92
+matplotlib==3.10.9
+Pillow
+# 病理基础模型成员（Phikon v1 / v2）
+transformers==4.40.2
+# 可选：timm 骨干适配（network/timm_cam.py，扩展实验用）
+timm==1.0.30
+# 说明：
+#   mxnet==1.9.1 需单独安装（仅用于将 ImageNet 初始化 .params 权重转为 torch）：
+#     pip install mxnet==1.9.1
